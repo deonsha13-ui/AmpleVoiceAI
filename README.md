@@ -1,198 +1,210 @@
-# AmpleVoiceAI AI
+# 🎙️ Ample Voice AI
 
-**The open-source, self-hostable alternative to Vapi & Retell** — build production voice agents with a drag-and-drop workflow builder. From zero to a working bot in under 2 minutes.
+### AI-Powered Voice Agents for Real-World Business Workflows
 
-<p align="center">
-  <a href="https://app.amplevoice.com">
-    <img src="https://img.shields.io/badge/▶_Try_the_Cloud-app.amplevoice.com-2563eb?style=for-the-badge" alt="Try the Cloud">
-  </a>
-  &nbsp;
-  <a href="#-get-started">
-    <img src="https://img.shields.io/badge/⚡_Self--host_in_60s-One_command-111827?style=for-the-badge" alt="Self-host in 60s">
-  </a>
-  &nbsp;
-  <a href="https://join.slack.com/t/amplevoice-community/shared_invite/zt-3zjb5vwvl-j7hRz3_F1SOn5cH~jm5f5g">
-    <img src="https://img.shields.io/badge/💬_Join_Slack-Community-4A154B?style=for-the-badge&logo=slack" alt="Join Slack">
-  </a>
-</p>
+Ample Voice AI is a customizable voice-agent platform designed to help businesses deploy AI-powered voice assistants for customer communication, lead handling, support, and operational workflows.
 
-<p align="center">
-  <a href="https://docs.amplevoice.com">📖 Docs</a> &nbsp;·&nbsp;
-  <a href="LICENSE">📜 BSD 2-Clause</a> &nbsp;·&nbsp;
-  <a href="README.zh-CN.md">🌐 中文</a>
-</p>
+The platform combines conversational AI, voice infrastructure, agent configuration, and workflow integrations into a single system.
 
-<p align="center">
-  <img src="docs/images/hero.gif" alt="AmpleVoiceAI in action — build a workflow, launch a voice agent, talk to it" width="80%">
-</p>
+---
 
-- **100% open source**, self-hostable — no vendor lock-in, unlike Vapi or Retell
-- **Full control & transparency** — every line of code is open, with flexible LLM / TTS / STT integration
-- **Maintained by YC alumni and exit founders**, committed to keeping voice AI open
+## 🚀 Overview
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/31007" target="_blank"><img src="https://trendshift.io/api/badge/repositories/31007" alt="amplevoice-hq%2Famplevoice | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
+Traditional business phone systems are limited to predefined menus and human availability.
 
-## 🎥 Featured
+Ample Voice AI explores a different approach: intelligent voice agents that can understand natural language, maintain conversations, collect information, and trigger business workflows in real time.
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=xD9JEvfCH9k">
-    <img src="https://img.youtube.com/vi/xD9JEvfCH9k/maxresdefault.jpg" alt="AmpleVoiceAI featured by Better Stack" width="80%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  </a>
-  <br>
-  <em>Featured by <strong>Better Stack</strong> — a hands-on look at AmpleVoiceAI</em>
-</div>
+The platform is designed to support use cases such as:
 
-<details>
-<summary>📺 Prefer a 2-minute product walkthrough? Click here.</summary>
+- AI Receptionists
+- Customer Support
+- Lead Qualification
+- Appointment Scheduling
+- Outbound Calling
+- Inbound Calling
+- FAQ & Information Agents
+- Business Workflow Automation
 
-<div align="center">
-  <a href="https://youtu.be/9gPneyf9M9w">
-    <img src="docs/images/video_thumbnail_1.png" alt="Watch AmpleVoiceAI AI Demo Video" width="70%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-  </a>
-</div>
+---
 
-</details>
+## 🧠 How It Works
 
-## ⚖️ AmpleVoiceAI vs Vapi vs Retell
+A typical voice interaction follows a simple pipeline:
 
-An honest comparison on the axes that matter most to teams evaluating voice AI platforms.
+Caller
+   ↓
+Voice Agent
+   ↓
+Speech Recognition
+   ↓
+AI Reasoning
+   ↓
+Context & Conversation State
+   ↓
+Voice Response
+   ↓
+Business Workflow / Integration
 
-|  | **AmpleVoiceAI** | **Vapi** | **Retell** |
-|---|---|---|---|
-| **License** | BSD 2-Clause (open source) | Proprietary | Proprietary |
-| **Self-hostable** | ✅ Yes — one Docker command | ❌ SaaS only | ❌ SaaS only |
-| **Pricing** | Free (self-host) · usage-based (cloud) | Per-minute SaaS | Per-minute SaaS |
-| **Bring your own LLM / STT / TTS** | ✅ Any provider, or use AmpleVoiceAI's stack | Configurable within their integrations | Configurable within their integrations |
-| **Source-level customization** | ✅ Every line is yours to modify | ❌ Closed source | ❌ Closed source |
-| **Data residency** | Your infra, your rules | Their cloud | Their cloud |
-| **Vendor lock-in** | None | Full | Full |
+This allows businesses to move beyond simple call handling and build voice systems that can actually participate in their operations.
 
+---
 
-## 🚀 Get Started
+## ✨ Key Features
 
-##### Download and setup AmpleVoiceAI on your Local Machine
+- 🎙️ AI-powered voice conversations
+- 📞 Inbound and outbound calling
+- 🧠 Configurable AI agents
+- 💬 Natural-language conversations
+- 🔄 Conversation state and context
+- ⚡ Real-time voice interaction
+- 🔧 Custom agent configuration
+- 🔗 Workflow and API integrations
+- 📅 Appointment and scheduling workflows
+- 📊 Call and conversation management
+- 🏢 Business-specific AI assistants
 
-> **Note**
-> We collect anonymous usage data to improve the product. You can opt out by setting `ENABLE_TELEMETRY=false` before running the startup script.
+---
 
-> **Note**
-> If you wish to run the platform on a remote server instead, checkout our [Documentation](https://docs.amplevoice.com/deployment/docker#option-2:-remote-server-deployment)
+## 🏢 Example Use Cases
 
-```bash
-curl -o docker-compose.yaml https://raw.githubusercontent.com/amplevoice-hq/amplevoice/main/docker-compose.yaml && curl -o start_docker.sh https://raw.githubusercontent.com/amplevoice-hq/amplevoice/main/scripts/start_docker.sh && chmod +x start_docker.sh && ./start_docker.sh
-```
+### AI Receptionist
 
-> **⚡ Prefer an AI agent to set it up for you?**
-> If you use **Claude Code** or **Codex**, install the official [AmpleVoiceAI setup skill](https://github.com/amplevoice-hq/amplevoice-plugins) and let your agent handle installation, configuration, and troubleshooting — it detects your OS, picks the right deploy path, runs AmpleVoiceAI's own setup scripts, and verifies the result.
->
-> ```text
-> # In Claude Code
-> /plugin marketplace add amplevoice-hq/amplevoice-plugins
-> /plugin install amplevoice@amplevoice
-> ```
->
-> Then start a new session and ask it to _"set up AmpleVoiceAI"_ (or run `/amplevoice-setup`). Codex is supported too — see the [plugin repo](https://github.com/amplevoice-hq/amplevoice-plugins#install).
+Handle incoming calls, answer common questions, collect caller information, and route requests.
 
-> **Note**
-> First startup may take 2-3 minutes to download all images. Once running, open http://localhost:3010 to create your first AI voice assistant!
-> For common issues and solutions, see 🔧 **[Troubleshooting](docs/troubleshooting.md)**.
+### Lead Qualification
 
-### 🎙️ Your First Voice Bot
+Engage prospects over the phone, ask qualification questions, collect requirements, and pass structured information to a business workflow.
 
-1. Open [http://localhost:3010](http://localhost:3010) in your browser.
-2. Pick **Inbound** or **Outbound**, name your bot (e.g. _Lead Qualification_), and describe the use case in 5–10 words (e.g. _Screen insurance form submissions for purchase intent_).
-3. Click **Web Call** — you're talking to your bot.
+### Appointment Scheduling
 
-> 🔑 **No API keys needed.** AmpleVoiceAI ships with auto-generated keys and its own LLM / TTS / STT stack. Connect your own keys for LLM, TTS, STT, or Telephony (e.g. Twilio, Vonage, Telnyx) anytime.
+Allow customers to interact with an AI voice agent and schedule appointments through connected scheduling systems.
 
-## Features
+### Customer Support
 
-### Voice Capabilities
+Provide first-line support for common questions and repetitive requests while escalating complex cases when necessary.
 
-- Telephony: Built-in telephony integration like Twilio, Vonage, Vobiz, Cloudonix (easily add others), with support for transferring calls to human agents
-- Languages: English support (expandable to other languages)
-- Custom Models: Bring your own TTS/STT models
-- Real-time Processing: Low-latency voice interactions
+### Outbound Calling
 
-### Developer Experience
+Automate repetitive outbound conversations such as follow-ups, confirmations, reminders, and lead outreach.
 
-- Zero Config Start: Auto-generated API keys for instant testing
-- Python-Based: Built on Python for easy customization
-- Docker-First: Containerized for consistent deployments
-- Modular Architecture: Swap components as needed
+---
 
-### Testing & Quality
+## ⚙️ Agent Architecture
 
-- **Test Mode**: Try your agent end-to-end before publishing, with no production calls or data affected
-- **In-Dashboard Web Calls**: Talk to your bot directly while building — no telephony setup required
-- **QA Node**: A built-in workflow node that analyzes prompt quality across your other nodes
+Ample Voice AI is built around configurable voice agents rather than fixed conversational flows.
 
-## Deployment Options
+Each agent can be designed around a specific business objective, with configurable:
 
-### Local Development
+- System instructions
+- Personality and tone
+- Conversation behavior
+- Business context
+- Voice configuration
+- Workflow actions
+- External integrations
 
-Refer [Local Setup](https://docs.amplevoice.com/contribution/setup)
+This makes it possible to create specialized agents for different businesses and use cases.
 
-### Self-Hosted Deployment
+---
 
-For detailed deployment instructions including remote server setup with HTTPS, see our [Docker Deployment Guide](https://docs.amplevoice.com/deployment/docker).
+## 🔌 Integrations & Workflows
 
-### Cloud Version
+Voice agents become significantly more useful when they can interact with existing business systems.
 
-Visit [https://www.amplevoice.com](https://www.amplevoice.com/) for our managed cloud offering.
+Potential workflow integrations include:
 
-## 📚Documentation
+- REST APIs
+- CRMs
+- Calendars
+- Databases
+- Webhooks
+- Automation platforms
+- Internal business systems
 
-You can go to [https://docs.amplevoice.com](https://docs.amplevoice.com/) for our documentation.
+A conversation can therefore become an actionable workflow rather than simply ending with a voice response.
 
-## 📦 SDKs
+---
 
-- **Python SDK** — [pypi.org/project/amplevoice-sdk](https://pypi.org/project/amplevoice-sdk/)
-- **Node SDK** — [npmjs.com/package/@amplevoice/sdk](https://www.npmjs.com/package/@amplevoice/sdk)
+## 🛠️ Technology
 
-## 🤝Community & Support
+The project combines modern web technologies with conversational AI and voice infrastructure.
 
-> 👋 **Coming from the Better Stack video?** Drop your use case in our [pinned GitHub Discussion](https://github.com/orgs/amplevoice-hq/discussions/291) — we read every reply and the founders personally onboard early adopters.
+Core areas include:
 
-- **Slack** — the cornerstone of AmpleVoiceAI AI contributions. Connect with maintainers, discuss features before coding, get help with setup, and stay current on contribution sprints.
-- **GitHub Discussions** — share use cases, ask questions, swap workflow recipes.
-- **GitHub Issues** — report bugs or request features.
+- React
+- TypeScript
+- Node.js
+- AI / LLM integrations
+- Voice AI infrastructure
+- API integrations
+- Real-time communication
+- Workflow automation
 
-👉 Join us → [AmpleVoiceAI Community Slack](https://join.slack.com/t/amplevoice-community/shared_invite/zt-3zjb5vwvl-j7hRz3_F1SOn5cH~jm5f5g)
+---
 
-## 🙌 Contributing
+## 🧩 Product Architecture
 
-We love contributions! AmpleVoiceAI AI is 100% open source and we intend to keep it that way.
+User
+  ↓
+Voice Interface
+  ↓
+Voice Processing Layer
+  ↓
+AI Agent
+  ↓
+Context / Reasoning
+  ↓
+Tools & Integrations
+  ↓
+Business System
 
-### Getting Started
+The architecture is designed to make the voice agent the conversational interface while allowing business logic and external systems to operate behind it.
 
-- Fork the repository
-- Create your feature branch (git checkout -b feature/AmazingFeature)
-- Commit your changes (git commit -m 'Add some AmazingFeature')
-- Push to the branch (git push origin feature/AmazingFeature)
-- Open a Pull Request
+---
 
-## ⭐ Star History
+## 🎯 Vision
 
-<a href="https://star-history.com/#amplevoice-hq/amplevoice&Date">
-  <img src="https://api.star-history.com/svg?repos=amplevoice-hq/amplevoice&type=Date" alt="AmpleVoiceAI star history" width="80%">
-</a>
+The goal of Ample Voice AI is to make voice a practical interface for business operations.
 
-## 📄 License
+Instead of businesses treating AI as a chatbot sitting on a website, voice agents can become an active layer between customers and the systems businesses already use.
 
-AmpleVoiceAI AI is licensed under the [BSD 2-Clause License](LICENSE)- the same license as projects that were used in building AmpleVoiceAI AI, ensuring compatibility and freedom to use, modify, and distribute.
+From answering a phone call to collecting information, updating systems, scheduling appointments, and triggering workflows — the objective is to make the entire interaction intelligent and actionable.
 
-## 🏢 About
+---
 
-Built with ❤️ by **AmpleVoiceAI** (Zansat Technologies Private Limited)
-Founded by YC alumni and exit founders committed to keeping voice AI open and accessible to everyone.
+## 🔮 Future Direction
 
-<br><br><br>
+Potential future capabilities include:
 
-  <p align="center">
-    <a href="https://github.com/amplevoice-hq/amplevoice/stargazers">⭐ Star us on GitHub</a> |
-    <a href="https://app.amplevoice.com">☁️ Try Cloud Version</a> |
-    <a href="https://join.slack.com/t/amplevoice-community/shared_invite/zt-3zjb5vwvl-j7hRz3_F1SOn5cH~jm5f5g">💬 Join Slack</a>
-  </p>
+- Multi-agent voice systems
+- Advanced CRM integrations
+- Automated call summaries
+- Intelligent call routing
+- Real-time analytics
+- Multilingual voice agents
+- Custom business knowledge bases
+- Autonomous workflow execution
+- Enterprise voice infrastructure
+- Voice-based internal business assistants
+
+---
+
+## 🏗️ Project
+
+Ample Voice AI is a customized and productized voice-agent platform built around an open-source foundation, with additional product configuration, interface work, agent workflows, and integrations developed for practical business use cases.
+
+Built as part of the broader **AmpletechAI** ecosystem.
+
+---
+
+## 💡 Core Idea
+
+Voice shouldn't just be a way to communicate with a business.
+
+**It can become an intelligent interface to the business itself.**
+
+---
+
+### 🎙️ Ample Voice AI
+
+**Talk to your business. Let AI handle the rest.**
